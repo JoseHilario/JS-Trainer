@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: normal 12pt arial;
+  font-style: italic;
+  background: #BFDDf3;
+  text-align: center;
+}
+
+main {
+  background: white;
+  border-radius: 0.5rem; 
+  margin: 2rem;
+  padding: 1rem;
+}
+
+div.val {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  color:black;
+  border-radius:0.5rem;
+  height:2rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+h1, footer {
+  text-align: center;
+}

@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  margin-top: 1.5rem;
+  font: normal 12pt arial;
+  font-style: italic;
+  text-align: center;
+  background: skyblue;
+}
+
+main {
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background: white;
+}
+
+#box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  margin: 0 0.5rem;
+}
+
+button {
+  height: 2rem;
+  border-radius: 0.5rem;
+  padding: 0 0.7rem;
+  font-weight: bold;
+  font-style: italic;
+  color: black;
+}
